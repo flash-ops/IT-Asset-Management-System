@@ -1,54 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IT Asset Management System</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body class="home-bg">
-  <header class="navbar">
-    <h1 class="logo">IT Asset Management</h1>
-    <nav>
-      <ul class="nav-links">
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="#">Assets</a></li>
-        <li><a href="#">Reports</a></li>
-        <li><a href="login.html">Login</a></li>
-        <li><a href="signup.html">Sign Up</a></li>
-      </ul>
-    </nav>
+<body class="dashboard-body">
+
+<div class="sidebar">
+  <h2 class="sidebar-title">ITAMS</h2>
+  <ul class="sidebar-links">
+    <li><a href="index.html" class="active">🏠 Home</a></li>
+    <li><a href="#">📦 Assets</a></li>
+    <li><a href="#">📊 Reports</a></li>
+    <li><a href="login.html">🔐 Login</a></li>
+    <li><a href="signup.html">📝 Sign Up</a></li>
+  </ul>
+</div>
+
+<div class="main-area">
+
+  <header class="dashboard-header">
+    <h1>Welcome to IT Asset Management</h1>
+    <p>Manage, track, and monitor your organization’s IT assets efficiently.</p>
   </header>
 
-  <main class="main-content">
-    <section class="hero">
-      <h2>Welcome to the IT Asset Management System</h2>
-      <p>Track, monitor, and manage all your IT assets in one unified platform.</p>
-      <div class="btn-group">
-        <a href="login.html" class="btn">Login</a>
-        <a href="signup.html" class="btn-outline">Sign Up</a>
-      </div>
-    </section>
+  <section class="card-grid">
 
-    <section class="features">
-      <div class="feature-card">
-        <h3>📦 Asset Tracking</h3>
-        <p>Stay updated with real-time inventory and asset location tracking.</p>
-      </div>
-      <div class="feature-card">
-        <h3>🧑‍💻 User Management</h3>
-        <p>Assign and manage user roles securely with ease.</p>
-      </div>
-      <div class="feature-card">
-        <h3>📊 Reports</h3>
-        <p>Generate and download reports to make better IT decisions.</p>
-      </div>
-    </section>
-  </main>
+    <div class="dash-card">
+      <h3>Asset Dashboard</h3>
+      <p>View, search, and monitor current assets.</p>
+      <a href="#" class="btn-small">Open</a>
+    </div>
 
-  <footer class="footer">
-    <p>© 2025 IT Asset Management System | All rights reserved.</p>
-  </footer>
+    <div class="dash-card">
+      <h3>Add New Asset</h3>
+      <p>Add hardware, software, accessories, and more.</p>
+      <a href="#" class="btn-small">Add</a>
+    </div>
+
+    <div class="dash-card">
+      <h3>Generate Reports</h3>
+      <p>Create and export usage and assignment reports.</p>
+      <a href="#" class="btn-small">View</a>
+    </div>
+
+    <div class="dash-card">
+      <h3>User Management</h3>
+      <p>Manage employee access and roles.</p>
+      <a href="#" class="btn-small">Manage</a>
+    </div>
+
+  </section>
+
+</div>
+
 </body>
 </html>
 
