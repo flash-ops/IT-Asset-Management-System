@@ -263,4 +263,95 @@
   color: #555;
   margin-bottom: 15px;
 }
+/* ---------------------- ASSET DASHBOARD TABLE ---------------------- */
+
+.top-actions {
+  margin-bottom: 20px;
+}
+
+.asset-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.asset-table th,
+.asset-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.asset-table th {
+  background: #f0f3f7;
+  font-weight: bold;
+}
+
+.status-active {
+  color: #1e9d4a;
+  font-weight: 600;
+}
+
+.status-inactive {
+  color: #d93f3f;
+  font-weight: 600;
+}
+
+.action-link {
+  color: #0078d7;
+  text-decoration: none;
+}
+
+.action-delete {
+  color: #d93f3f;
+  text-decoration: none;
+}
+
+.action-link:hover,
+.action-delete:hover {
+  text-decoration: underline;
+}
+/* ---------------------- ADD ASSET FORM ---------------------- */
+
+.asset-form-container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 600px;
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.form-group textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.btn {
+  margin-top: 15px;
+  width: 100%;
+}
 

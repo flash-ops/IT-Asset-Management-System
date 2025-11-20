@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assets | IT Asset Management</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="dashboard-body">
+
+<!-- Sidebar -->
+<div class="sidebar">
+  <h2 class="sidebar-title">ITAMS</h2>
+  <ul class="sidebar-links">
+    <li><a href="index.html">🏠 Home</a></li>
+    <li><a href="assets.html" class="active">📦 Assets</a></li>
+    <li><a href="#">📊 Reports</a></li>
+    <li><a href="login.html">🔐 Login</a></li>
+    <li><a href="signup.html">📝 Sign Up</a></li>
+  </ul>
+</div>
+
+<!-- Main Area -->
+<div class="main-area">
+
+  <header class="dashboard-header">
+    <h1>Asset Dashboard</h1>
+    <p>View all IT assets in your organization.</p>
+  </header>
+
+  <!-- Add Asset Button -->
+  <div class="top-actions">
+    <a href="asset-add.html" class="btn">+ Add New Asset</a>
+  </div>
+
+  <!-- Asset Table -->
+  <table class="asset-table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Asset Name</th>
+        <th>Category</th>
+        <th>Status</th>
+        <th>Assigned To</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>001</td>
+        <td>Dell Latitude Laptop</td>
+        <td>Laptop</td>
+        <td><span class="status-active">Active</span></td>
+        <td>John Smith</td>
+        <td>
+          <a href="#" class="action-link">View</a> |
+          <a href="#" class="action-link">Edit</a> |
+          <a href="#" class="action-delete">Delete</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td>002</td>
+        <td>HP OfficeJet Pro</td>
+        <td>Printer</td>
+        <td><span class="status-inactive">Inactive</span></td>
+        <td>-</td>
+        <td>
+          <a href="#" class="action-link">View</a> |
+          <a href="#" class="action-link">Edit</a> |
+          <a href="#" class="action-delete">Delete</a>
+        </td>
+      </tr>
+
+      <tr>
+        <td>003</td>
+        <td>iPhone 13</td>
+        <td>Mobile Device</td>
+        <td><span class="status-active">Active</span></td>
+        <td>Sara Patel</td>
+        <td>
+          <a href="#" class="action-link">View</a> |
+          <a href="#" class="action-link">Edit</a> |
+          <a href="#" class="action-delete">Delete</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+</body>
+</html>
+
